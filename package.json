@@ -2,7 +2,12 @@
   "name": "rearrange-files",
   "version": "0.0.0",
   "description": "",
-  "keywords": ["files", "organize", "fs", "rearrange"],
+  "keywords": [
+    "files",
+    "organize",
+    "fs",
+    "rearrange"
+  ],
   "author": "12luckydev",
   "license": "MIT",
   "repository": {
@@ -38,10 +43,21 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "peerDependencies": {
+    "cli-progress": "^3.12.0",
+    "dayjs": "^1.11.13",
+    "exifreader": "^4.23.3",
+    "fs-extra": "^11.2.0",
+    "mime-types": "^2.1.35",
+    "rxjs": "^7.8.1"
+  },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/eslint__js": "^8.42.3",
+    "@types/fs-extra": "^11.0.4",
     "@types/jest": "^29.5.12",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^22.8.4",
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
