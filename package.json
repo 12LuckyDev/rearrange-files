@@ -1,13 +1,13 @@
 {
-  "name": "npm-ts-template",
-  "version": "1.1.0",
+  "name": "rearrange-files",
+  "version": "0.0.0",
   "description": "",
-  "keywords": [],
+  "keywords": ["files", "organize", "fs", "rearrange"],
   "author": "12luckydev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/12LuckyDev/npm-ts-template.git"
+    "url": "git+https://github.com/12LuckyDev/rearrange-files.git"
   },
   "source": "src/index.ts",
   "main": "lib/cjs/index.js",
