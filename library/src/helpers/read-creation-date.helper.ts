@@ -12,7 +12,7 @@ export const readCreationTime = async (filepath: string): Promise<Date> => {
         return new Date(dateTimeOriginal.replace(':', '-').replace(':', '-'));
       }
     } catch (e) {
-      console.error(filepath);
+      console.error(filepath, e);
     }
   }
 
