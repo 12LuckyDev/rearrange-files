@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "sourceMap": true
+  },
+  "include": ["app.ts"],
+  "exclude": ["node_modules"]
+}
