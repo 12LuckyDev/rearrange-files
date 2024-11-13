@@ -1,6 +1,6 @@
 import ExifReader from 'exifreader';
 import { readFileType } from './read-file-type.helper';
-import fs from 'fs';
+import * as fs from 'fs';
 
 export const readCreationTime = async (filepath: string): Promise<Date> => {
   const filetype = readFileType(filepath);

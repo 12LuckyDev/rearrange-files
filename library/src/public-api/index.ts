@@ -1,7 +1,7 @@
 import { Observable, Subject } from 'rxjs';
 import { RearrangeOptionsModel, RearrangeProgressModel, RearrangeSettingsModel } from '../models';
 import { HandlerStage } from '../enums';
-import fs from 'fs';
+import * as fs from 'fs';
 import path from 'path';
 import { buildSettings, handleFile, prepare } from '../helpers';
 
