@@ -9,6 +9,6 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
   {
-    ignores: ['node_modules', 'lib'],
+    ignores: ['node_modules', 'lib', 'jest.config.js'],
   },
 );
