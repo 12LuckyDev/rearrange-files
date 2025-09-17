@@ -3,9 +3,10 @@ import { SingleBar, Presets } from 'cli-progress';
 
 const main = async (): Promise<void> => {
   const handler = new RearrangeHandler({
-    srcPath: './test-files',
-    targetPath: './result',
-    depth: Depth.day,
+    srcPath: 'E:/Cypr',
+    targetPath: 'E:/Cypr sortowane',
+    depth: Depth.month,
+    clearTarget: true,
   });
   const bar = new SingleBar({}, Presets.shades_classic);
 
